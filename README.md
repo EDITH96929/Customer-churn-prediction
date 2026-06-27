@@ -131,3 +131,16 @@ Business Recommendation Report
 | **Model Predictions** | Top 500 high-risk customers with churn scores |
 | **Retention Tracking** | Campaign ROI, intervention success rate |
 ---
+
+## ⚠️ Real-World Challenges Addressed
+ 
+**Class Imbalance** — Only 26.5% of customers churn. Handled using SMOTE oversampling and evaluated using AUC-ROC and F1-score instead of raw accuracy.
+ 
+**Hidden Data Quality Issues** — `TotalCharges` column stored as string type despite being numerical, containing 11 hidden null values missed by standard checks.
+ 
+**Feature Engineering** — Raw columns alone are insufficient. New features created include usage trends, support ticket frequency, and price sensitivity scores.
+ 
+**Temporal Validation** — Data split by time (not randomly) to simulate real production model validation.
+ 
+**Business Explainability** — SHAP values used to explain every prediction in plain business language, not just model scores.
+ 
