@@ -121,5 +121,13 @@ Power BI Dashboard
         ↓
 Business Recommendation Report
 ```
+ ## 📈 Power BI Dashboard Pages
  
+| Page | Content |
+|---|---|
+| **Executive Summary** | Churn rate KPIs, revenue at risk, trend lines |
+| **Churn Risk Segmentation** | CLV vs churn probability scatter, treemap by segment |
+| **Behavioral Deep Dive** | Usage patterns, support tickets, payment failures |
+| **Model Predictions** | Top 500 high-risk customers with churn scores |
+| **Retention Tracking** | Campaign ROI, intervention success rate |
 ---
