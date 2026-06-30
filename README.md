@@ -166,3 +166,11 @@ pip install -r requirements.txt
  
 ### 4. Add the dataset
 Download `WA_Fn-UseC_-Telco-Customer-Churn.csv` from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) and place it in `data/raw/`.
+
+### 5. Run notebooks in order
+```bash
+jupyter notebook
+```
+Open and run notebooks 01 → 02 → 03 → 04 → 05 in sequence.
+ 
+---
