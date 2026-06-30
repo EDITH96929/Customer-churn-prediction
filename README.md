@@ -143,4 +143,20 @@ Business Recommendation Report
 **Temporal Validation** — Data split by time (not randomly) to simulate real production model validation.
  
 **Business Explainability** — SHAP values used to explain every prediction in plain business language, not just model scores.
+
+---
+ 
+## 🚀 How to Run This Project
+ 
+### 1. Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/telecom-churn-prediction.git
+cd telecom-churn-prediction
+```
+### 2. Create virtual environment
+```bash
+python -m venv venv
+venv\Scripts\activate       # Windows
+source venv/bin/activate    # Mac/Linux
+```
  
