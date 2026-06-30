@@ -159,4 +159,10 @@ python -m venv venv
 venv\Scripts\activate       # Windows
 source venv/bin/activate    # Mac/Linux
 ```
+ ### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
  
+### 4. Add the dataset
+Download `WA_Fn-UseC_-Telco-Customer-Churn.csv` from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) and place it in `data/raw/`.
