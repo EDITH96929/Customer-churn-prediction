@@ -175,3 +175,16 @@ jupyter notebook
 Open and run notebooks 01 → 02 → 03 → 04 → 05 in sequence.
  
 ---
+ 
+## 📋 Key Results *(updated as project progresses)*
+ 
+| Metric | Value |
+|---|---|
+| Baseline Churn Rate | 26.54% |
+| Best Model | TBD |
+| AUC-ROC Score | TBD |
+| F1 Score | TBD |
+| High-Risk Customers Identified | TBD |
+| Estimated Revenue at Risk | TBD |
+ 
+---
